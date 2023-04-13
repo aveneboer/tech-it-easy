@@ -1,0 +1,21 @@
+#tvsSold {
+    color: green;
+}
+#tvsBought {
+    color: blue;
+}
+#tvsToBeSold {
+    color: red;
+}
+.tv-item {
+    display: flex;
+    flex-direction: column;
+    border: red;
+    border-style: solid;
+    padding: 20px;
+    margin: 10px;
+}
+
+.tv-description {
+    font-weight: bold;
+}
