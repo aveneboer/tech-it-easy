@@ -4,8 +4,7 @@ const tvTypes = inventory.map((tvType) => {
 console.log(tvTypes);
 
 const tvsSoldOut = inventory.filter((tvSoldOut) => {
-    if (tvSoldOut.sold - tvSoldOut.originalStock === 0)
-        return tvSoldOut;
+    return tvSoldOut.sold === tvSoldOut.originalStock
 })
 console.log(tvsSoldOut);
 
