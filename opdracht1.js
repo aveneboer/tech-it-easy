@@ -9,7 +9,7 @@ const tvsSoldOut = inventory.filter((tvSoldOut) => {
 console.log(tvsSoldOut);
 
 const tvsWithAmbiLight = inventory.filter((tvWithAmbiLight) => {
-    return tvWithAmbiLight.options.ambiLight === true;
+    return tvWithAmbiLight.options.ambiLight;
 })
 console.log(tvsWithAmbiLight);
 
